@@ -191,6 +191,20 @@ form button.btn-primary:hover {
   z-index: 0;
 }
 
+/* Enables the parallax effect */
+.hero {
+    position: relative;
+    background-attachment: fixed; /* Enables the parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Optional: Adjust text color for better visibility */
+}
+
 .hero .container {
   position: relative;
   z-index: 5;
@@ -498,14 +512,14 @@ form button.btn-primary:hover {
     1 - Trust
 ------------------------------------*/
 .trust {
-    padding: 75px 0;
+    padding: 35px 0;
     background-color: #39399a;
     color: #ddd;
     position: relative;
 }
 
 .trust .title {
-  margin-bottom: 46px;
+  margin-bottom: 30px;
 }
 
 .trust h1 {
@@ -583,6 +597,19 @@ form button.btn-primary:hover {
   left: 50%;
 }
 
+.trust-grey li {
+    color: #777;
+}
+
+.trust-grey h1 {
+    color: #39399a;
+}
+.trust-grey {
+    background-color: #fff;
+}
+    .trust-grey i {
+        color: #39399a;
+    }
 /*-----------------------------------
     1 - Pricing Table
 ------------------------------------*/
