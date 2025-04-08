@@ -363,7 +363,7 @@ form button.btn-primary:hover {
 }
 
 .services .media {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
     .services h5 {
@@ -520,13 +520,13 @@ form button.btn-primary:hover {
 
 .trust ul {
   color: #fff;
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
 }
 
 .trust li {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .trust .gallery img {
