@@ -181,7 +181,7 @@
     font-size: 58px;
   }
   .trust .title {
-    padding-top: 70px;
+    padding-top: 30px;
   }
   .trust ul {
     padding-bottom: 30px;
@@ -193,6 +193,10 @@
     height: 100%;
     padding: 75px 0;
   }
+
+    .no-padding {
+        padding-top: 0 !important;
+    }
 
     .trust-part-two h1 {
         padding-top: 0 !important;
