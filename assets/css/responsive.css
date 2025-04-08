@@ -137,6 +137,13 @@
   }
 }
 
+
+@media (min-width: 968px) {
+    .container .cta-content .content {
+        padding-left: 70px;
+    }
+}
+
 /*-----------------------------------
     Large devices (desktops, 992px and up)
 ------------------------------------*/
@@ -185,5 +192,14 @@
     right: 0;
     height: 100%;
     padding: 75px 0;
+  }
+
+    .trust-part-two h1 {
+        padding-top: 0 !important;
+        font-size: 1.9em;
+        text-align: justify;
+    }
+  .trust-part-two{
+      padding-top:0!important;
   }
 }
